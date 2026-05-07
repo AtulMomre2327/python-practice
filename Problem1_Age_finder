@@ -1,0 +1,101 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMZ7ickQUt2sIGG8K5JLhA4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/atulmor199-lang/Python-learning-/blob/main/Problem1_Age_finder\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ALbRVdojECrp"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "KfD63UMSELwl"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "User will input (3age) find the oldest one\n",
+        ""
+      ],
+      "metadata": {
+        "id": "E6Twk-EFEMeQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "age1 = int(input(\"enter Age 1:\"))\n",
+        "age2 = int(input(\"enter Age 2:\"))\n",
+        "age3 = int(input(\"enter Age 3:\"))\n",
+        "if (age1 >= age2) and (age1 >= age3):\n",
+        "  oldest = 1\n",
+        "elif (age2 >= age1) and (age2 >= age3):\n",
+        "  oldest = 2\n",
+        "else:\n",
+        "  oldest = 3\n",
+        "print(\"oldest Age is \",oldest )\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f-aI3FX4EVwJ",
+        "outputId": "fddfe5c3-b324-4eaf-9133-c37523c388fd"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter Age 1:23\n",
+            "enter Age 2:46\n",
+            "enter Age 3:54\n",
+            "oldest Age is  3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "PFBF8fQOEXP4"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
